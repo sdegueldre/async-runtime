@@ -1,0 +1,32 @@
+{
+  "name": "async-runtime",
+  "version": "0.0.1",
+  "description": "A runtime for cancellable async functions based on generators",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdegueldre/async-runtime.git"
+  },
+  "keywords": [
+    "async",
+    "runtime",
+    "generator",
+    "cancellable",
+    "interruptible"
+  ],
+  "author": "Samuel Degueldre",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sdegueldre/async-runtime/issues"
+  },
+  "homepage": "https://github.com/sdegueldre/async-runtime#readme",
+  "devDependencies": {
+    "eslint": "8.35.0",
+    "eslint-config-prettier": "8.6.0",
+    "eslint-plugin-prettier": "4.2.1",
+    "prettier": "2.8.4"
+  }
+}
